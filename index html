@@ -1,202 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>dryelick.com | AI Infrastructure for Institutions</title>
-<meta name="description" content="Enterprise AI consulting firm architecting intelligence infrastructure for institutional scale, capital acceleration, and automation dominance.">
-<link rel="icon" href="favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dryelick.com | AI Infrastructure for Institutions</title>
+  <meta name="description" content="Enterprise AI consulting firm architecting intelligence infrastructure for institutional scale, capital acceleration, and automation dominance.">
+  <link rel="icon" href="favicon.ico">
 
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-tailwind.config = {
-      theme: {
-            extend: {
-                      colors: {
-                                primary: "#00AEEF",
-                                        darkbg: "#0B0F1A"
-                      }
-            }
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          primary: "#00AEEF",
+          darkbg: "#0B0F1A"
+        }
       }
-}
-</script>
+    }
+  }
+  </script>
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-<style>
-body { font-family: 'Inter', sans-serif; background:#0B0F1A; scroll-behavior:smooth; }
-.fade-in { opacity:0; transform:translateY(20px); transition:all .8s ease; }
-.fade-in.visible { opacity:1; transform:translateY(0); }
-.glass { background: rgba(255,255,255,0.05); backdrop-filter: blur(12px); border:1px solid rgba(255,255,255,0.1); }
-</style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+  body { font-family: 'Inter', sans-serif; background:#0B0F1A; scroll-behavior:smooth; }
+  .fade-in { opacity:0; transform:translateY(20px); transition:all .8s ease; }
+  .fade-in.visible { opacity:1; transform:translateY(0); }
+  .glass { background: rgba(255,255,255,0.05); backdrop-filter: blur(12px); border:1px solid rgba(255,255,255,0.1); }
+  </style>
 
-<script type="application/ld+json">
-{
-     "@context": "https://schema.org",
-      "@type": "ConsultingService",
-       "name": "dryelick.com",
-        "description": "Enterprise AI infrastructure consulting for institutions and capital allocators.",
-         "areaServed": "Global"
-}
-</script>
-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ConsultingService",
+    "name": "dryelick.com",
+    "description": "Enterprise AI infrastructure consulting for institutions and capital allocators.",
+    "areaServed": "Global"
+  }
+  </script>
 </head>
 
 <body class="text-white">
 
 <!-- NAV -->
-<nav class="fixed w-full bg-black/40 backdrop-blur-md z-50 border-b border-white/10">
-  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-      <div class="text-xl font-bold text-primary">dryelick.com</div>
-          <div class="space-x-8 hidden md:block">
-                <a href="#solution" class="hover:text-primary">Solutions</a>
-                      <a href="#capital" class="hover:text-primary">Capital</a>
-                            <a href="#contact" class="hover:text-primary">Engage</a>
-                                </div>
-                                  </div>
-                                  </nav>
+<nav class="fixed w-full bg-black/60 backdrop-blur-lg z-50 border-b border-white/10">
+  <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+    <div class="text-2xl font-bold tracking-tight">
+      <span class="text-white">dr</span><span class="text-primary">yelick</span>
+    </div>
+    <div class="space-x-8 hidden md:block text-sm font-medium">
+      <a href="#solution" class="hover:text-primary transition">Solutions</a>
+      <a href="#capital" class="hover:text-primary transition">Capital</a>
+      <a href="#contact" class="hover:text-primary transition">Engage</a>
+    </div>
+  </div>
+</nav>
 
-                                  <!-- HERO -->
-                                  <section class="min-h-screen flex items-center justify-center px-6 text-center relative overflow-hidden">
-                                    <div class="absolute inset-0 bg-gradient-to-b from-primary/10 to-transparent"></div>
-                                      <div class="max-w-4xl fade-in">
-                                          <h1 class="text-5xl md:text-7xl font-extrabold mb-6">
-                                                AI Infrastructure for Institutions
-                                                    </h1>
-                                                        <p class="text-xl md:text-2xl text-gray-300 mb-10">
-                                                              We architect intelligence systems that compress cost, accelerate capital velocity, and engineer asymmetric advantage.
-                                                                  </p>
+<!-- HERO -->
+<section class="min-h-screen flex items-center justify-center px-6 text-center relative overflow-hidden pt-20">
+  <div class="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent pointer-events-none"></div>
+  <div class="max-w-4xl fade-in relative z-10">
+    <div class="mb-4 text-sm font-semibold tracking-widest text-primary uppercase">Enterprise Intelligence Architecture</div>
+    <h1 class="text-6xl md:text-7xl font-extrabold mb-6 leading-tight">
+      AI Infrastructure for Institutions
+    </h1>
+    <p class="text-lg md:text-xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
+      We architect intelligence systems that compress cost, accelerate capital velocity, and engineer asymmetric advantage.
+    </p>
 
-                                                                      <div class="flex flex-col md:flex-row gap-6 justify-center">
-                                                                            <a href="#contact" class="px-8 py-4 bg-primary text-black font-bold rounded-xl hover:scale-105 transition">
-                                                                                    Request Private Strategy Call
-                                                                                          </a>
-                                                                                                <a href="#solution" class="px-8 py-4 border border-primary text-primary rounded-xl hover:bg-primary hover:text-black transition">
-                                                                                                        View Intelligence Architecture
-                                                                                                              </a>
-                                                                                                                  </div>
+    <div class="flex flex-col md:flex-row gap-4 justify-center mb-16">
+      <a href="#contact" class="px-8 py-4 bg-primary text-black font-bold rounded-lg hover:bg-cyan-400 transition duration-200 text-center">
+        Request Private Strategy Call
+      </a>
+      <a href="#solution" class="px-8 py-4 border border-primary text-primary rounded-lg hover:bg-primary/10 transition duration-200 text-center">
+        View Intelligence Architecture
+      </a>
+    </div>
 
-                                                                                                                      <!-- STATS -->
-                                                                                                                          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 text-center">
-                                                                                                                                <div>
-                                                                                                                                        <div class="text-4xl font-bold text-primary counter" data-target="70">0</div>
-                                                                                                                                                <p class="text-gray-400">Cost Compression (%)</p>
-                                                                                                                                                      </div>
-                                                                                                                                                            <div>
-                                                                                                                                                                    <div class="text-4xl font-bold text-primary counter" data-target="5">0</div>
-                                                                                                                                                                            <p class="text-gray-400">Workflow Acceleration (x)</p>
-                                                                                                                                                                                  </div>
-                                                                                                                                                                                        <div>
-                                                                                                                                                                                                <div class="text-4xl font-bold text-primary counter" data-target="100">0</div>
-                                                                                                                                                                                                        <p class="text-gray-400">Institutional Scale Readiness</p>
-                                                                                                                                                                                                              </div>
-                                                                                                                                                                                                                  </div>
+    <!-- STATS -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 text-center">
+      <div>
+        <div class="text-5xl font-bold text-primary counter" data-target="70">0</div>
+        <p class="text-gray-500 text-sm mt-2">Cost Compression (%)</p>
+      </div>
+      <div>
+        <div class="text-5xl font-bold text-primary counter" data-target="5">0</div>
+        <p class="text-gray-500 text-sm mt-2">Workflow Acceleration (x)</p>
+      </div>
+      <div>
+        <div class="text-5xl font-bold text-primary counter" data-target="100">0</div>
+        <p class="text-gray-500 text-sm mt-2">Institutional Scale Readiness</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-                                                                                                                                                                                                                    </div>
-                                                                                                                                                                                                                    </section>
+<!-- PROBLEM -->
+<section class="py-24 px-6 max-w-7xl mx-auto text-center fade-in">
+  <h2 class="text-4xl font-bold mb-16">Most Companies Experiment With AI. Few Engineer It.</h2>
+  <div class="grid md:grid-cols-3 gap-8">
+    <div class="glass p-8 rounded-xl">
+      <h3 class="text-xl font-bold mb-3 text-primary">Fragmented AI Adoption</h3>
+      <p class="text-gray-400 text-sm">Disconnected tools without unified architecture.</p>
+    </div>
+    <div class="glass p-8 rounded-xl">
+      <h3 class="text-xl font-bold mb-3 text-primary">Data Chaos</h3>
+      <p class="text-gray-400 text-sm">Unstructured systems that block intelligence velocity.</p>
+    </div>
+    <div class="glass p-8 rounded-xl">
+      <h3 class="text-xl font-bold mb-3 text-primary">Executive Blind Spots</h3>
+      <p class="text-gray-400 text-sm">Decisions made without predictive visibility.</p>
+    </div>
+  </div>
+</section>
 
-                                                                                                                                                                                                                    <!-- PROBLEM -->
-                                                                                                                                                                                                                    <section class="py-24 px-6 max-w-7xl mx-auto text-center fade-in">
-                                                                                                                                                                                                                      <h2 class="text-4xl font-bold mb-12">Most Companies Experiment With AI. Few Engineer It.</h2>
-                                                                                                                                                                                                                        <div class="grid md:grid-cols-3 gap-10">
-                                                                                                                                                                                                                            <div class="glass p-8 rounded-2xl">
-                                                                                                                                                                                                                                  <h3 class="text-xl font-bold mb-4 text-primary">Fragmented AI Adoption</h3>
-                                                                                                                                                                                                                                        <p class="text-gray-400">Disconnected tools without unified architecture.</p>
-                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                <div class="glass p-8 rounded-2xl">
-                                                                                                                                                                                                                                                      <h3 class="text-xl font-bold mb-4 text-primary">Data Chaos</h3>
-                                                                                                                                                                                                                                                            <p class="text-gray-400">Unstructured systems that block intelligence velocity.</p>
-                                                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                                                                    <div class="glass p-8 rounded-2xl">
-                                                                                                                                                                                                                                                                          <h3 class="text-xl font-bold mb-4 text-primary">Executive Blind Spots</h3>
-                                                                                                                                                                                                                                                                                <p class="text-gray-400">Decisions made without predictive visibility.</p>
-                                                                                                                                                                                                                                                                                    </div>
-                                                                                                                                                                                                                                                                                      </div>
-                                                                                                                                                                                                                                                                                      </section>
+<!-- SOLUTION -->
+<section id="solution" class="py-24 px-6 max-w-7xl mx-auto text-center fade-in">
+  <h2 class="text-4xl font-bold mb-16">We Build AI as Infrastructure, Not Features.</h2>
+  <div class="grid md:grid-cols-3 gap-8">
+    <div class="glass p-8 rounded-xl">
+      <h3 class="text-xl font-bold mb-3 text-primary">Enterprise AI Integration</h3>
+      <p class="text-gray-400 text-sm">Full-stack deployment across departments.</p>
+    </div>
+    <div class="glass p-8 rounded-xl">
+      <h3 class="text-xl font-bold mb-3 text-primary">Custom LLM Deployment</h3>
+      <p class="text-gray-400 text-sm">Private model architecture & fine-tuning.</p>
+    </div>
+    <div class="glass p-8 rounded-xl">
+      <h3 class="text-xl font-bold mb-3 text-primary">Autonomous Systems</h3>
+      <p class="text-gray-400 text-sm">Self-optimizing workflows and predictive automation.</p>
+    </div>
+  </div>
+</section>
 
-                                                                                                                                                                                                                                                                                      <!-- SOLUTION -->
-                                                                                                                                                                                                                                                                                      <section id="solution" class="py-24 px-6 max-w-7xl mx-auto text-center fade-in">
-                                                                                                                                                                                                                                                                                        <h2 class="text-4xl font-bold mb-12">We Build AI as Infrastructure, Not Features.</h2>
-                                                                                                                                                                                                                                                                                          <div class="grid md:grid-cols-3 gap-10">
-                                                                                                                                                                                                                                                                                              <div class="glass p-8 rounded-2xl">
-                                                                                                                                                                                                                                                                                                    <h3 class="text-xl font-bold mb-4 text-primary">Enterprise AI Integration</h3>
-                                                                                                                                                                                                                                                                                                          <p class="text-gray-400">Full-stack deployment across departments.</p>
-                                                                                                                                                                                                                                                                                                              </div>
-                                                                                                                                                                                                                                                                                                                  <div class="glass p-8 rounded-2xl">
-                                                                                                                                                                                                                                                                                                                        <h3 class="text-xl font-bold mb-4 text-primary">Custom LLM Deployment</h3>
-                                                                                                                                                                                                                                                                                                                              <p class="text-gray-400">Private model architecture & fine-tuning.</p>
-                                                                                                                                                                                                                                                                                                                                  </div>
-                                                                                                                                                                                                                                                                                                                                      <div class="glass p-8 rounded-2xl">
-                                                                                                                                                                                                                                                                                                                                            <h3 class="text-xl font-bold mb-4 text-primary">Autonomous Systems</h3>
-                                                                                                                                                                                                                                                                                                                                                  <p class="text-gray-400">Self-optimizing workflows and predictive automation.</p>
-                                                                                                                                                                                                                                                                                                                                                      </div>
-                                                                                                                                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                                                                                                                                        </section>
+<!-- CAPITAL -->
+<section id="capital" class="py-24 px-6 text-center fade-in">
+  <h2 class="text-4xl font-bold mb-8">Built for Capital Scale.</h2>
+  <p class="max-w-3xl mx-auto text-gray-300 text-lg mb-12">
+    Designed for institutional investors, private equity, sovereign offices, and enterprise operators executing nine-figure rollouts.
+  </p>
+</section>
 
-                                                                                                                                                                                                                                                                                                                                                        <!-- CAPITAL -->
-                                                                                                                                                                                                                                                                                                                                                        <section id="capital" class="py-24 px-6 text-center fade-in">
-                                                                                                                                                                                                                                                                                                                                                          <h2 class="text-4xl font-bold mb-8">Built for Capital Scale.</h2>
-                                                                                                                                                                                                                                                                                                                                                            <p class="max-w-3xl mx-auto text-gray-300 text-lg mb-12">
-                                                                                                                                                                                                                                                                                                                                                                Designed for institutional investors, private equity, sovereign offices, and enterprise operators executing nine-figure rollouts.
-                                                                                                                                                                                                                                                                                                                                                                  </p>
-                                                                                                                                                                                                                                                                                                                                                                  </section>
+<!-- CTA -->
+<section id="contact" class="py-24 px-6 text-center fade-in">
+  <h2 class="text-4xl font-bold mb-6">$100M Outcomes Require Structural Intelligence.</h2>
+  <p class="text-gray-300 mb-8">Private Engagement Only.</p>
+  <form class="max-w-xl mx-auto space-y-6">
+    <input type="text" placeholder="Full Name" class="w-full p-4 rounded-xl bg-black/40 border border-white/10 text-white placeholder-gray-500">
+    <input type="email" placeholder="Institutional Email" class="w-full p-4 rounded-xl bg-black/40 border border-white/10 text-white placeholder-gray-500">
+    <textarea placeholder="Brief Description of Initiative" class="w-full p-4 rounded-xl bg-black/40 border border-white/10 text-white placeholder-gray-500"></textarea>
+    <button class="w-full py-4 bg-primary text-black font-bold rounded-xl hover:scale-105 transition">
+      Request Strategy Session
+    </button>
+  </form>
+</section>
 
-                                                                                                                                                                                                                                                                                                                                                                  <!-- CTA -->
-                                                                                                                                                                                                                                                                                                                                                                  <section id="contact" class="py-24 px-6 text-center bg-primary/10 fade-in">
-                                                                                                                                                                                                                                                                                                                                                                    <h2 class="text-4xl font-bold mb-6">$100M Outcomes Require Structural Intelligence.</h2>
-                                                                                                                                                                                                                                                                                                                                                                      <p class="text-gray-300 mb-8">Private Engagement Only.</p>
-                                                                                                                                                                                                                                                                                                                                                                        <form class="max-w-xl mx-auto space-y-6">
-                                                                                                                                                                                                                                                                                                                                                                            <input type="text" placeholder="Full Name" class="w-full p-4 rounded-xl bg-black/40 border border-white/10">
-                                                                                                                                                                                                                                                                                                                                                                                <input type="email" placeholder="Institutional Email" class="w-full p-4 rounded-xl bg-black/40 border border-white/10">
-                                                                                                                                                                                                                                                                                                                                                                                    <textarea placeholder="Brief Description of Initiative" class="w-full p-4 rounded-xl bg-black/40 border border-white/10"></textarea>
-                                                                                                                                                                                                                                                                                                                                                                                        <button class="w-full py-4 bg-primary text-black font-bold rounded-xl hover:scale-105 transition">
-                                                                                                                                                                                                                                                                                                                                                                                              Request Strategy Session
-                                                                                                                                                                                                                                                                                                                                                                                                  </button>
-                                                                                                                                                                                                                                                                                                                                                                                                    </form>
-                                                                                                                                                                                                                                                                                                                                                                                                    </section>
+<footer class="text-center py-10 border-t border-white/10 text-gray-500">
+  © 2026 dryelick.com — Institutional AI Consulting
+</footer>
 
-                                                                                                                                                                                                                                                                                                                                                                                                    <footer class="text-center py-10 border-t border-white/10 text-gray-500">
-                                                                                                                                                                                                                                                                                                                                                                                                      © 2026 dryelick.com — Institutional AI Consulting
-                                                                                                                                                                                                                                                                                                                                                                                                      </footer>
+<script>
+const counters = document.querySelectorAll('.counter');
+counters.forEach(counter => {
+  const updateCount = () => {
+    const target = +counter.getAttribute('data-target');
+    const count = +counter.innerText;
+    const inc = target / 100;
+    if(count < target){
+      counter.innerText = Math.ceil(count + inc);
+      setTimeout(updateCount, 20);
+    } else {
+      counter.innerText = target;
+    }
+  };
+  updateCount();
+});
 
-                                                                                                                                                                                                                                                                                                                                                                                                      <script>
-                                                                                                                                                                                                                                                                                                                                                                                                      const counters = document.querySelectorAll('.counter');
-                                                                                                                                                                                                                                                                                                                                                                                                      counters.forEach(counter => {
-                                                                                                                                                                                                                                                                                                                                                                                                          const updateCount = () => {
-                                                                                                                                                                                                                                                                                                                                                                                                                const target = +counter.getAttribute('data-target');
-                                                                                                                                                                                                                                                                                                                                                                                                                    const count = +counter.innerText;
-                                                                                                                                                                                                                                                                                                                                                                                                                        const inc = target / 100;
-                                                                                                                                                                                                                                                                                                                                                                                                                            if(count < target){
-                                                                                                                                                                                                                                                                                                                                                                                                                                      counter.innerText = Math.ceil(count + inc);
-                                                                                                                                                                                                                                                                                                                                                                                                                                            setTimeout(updateCount, 20);
-                                                                                                                                                                                                                                                                                                                                                                                                                            } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                      counter.innerText = target;
-                                                                                                                                                                                                                                                                                                                                                                                                                            }
-                                                                                                                                                                                                                                                                                                                                                                                                          };
-                                                                                                                                                                                                                                                                                                                                                                                                            updateCount();
-                                                                                                                                                                                                                                                                                                                                                                                                      });
+const faders = document.querySelectorAll('.fade-in');
+const appearOnScroll = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add('visible');
+    }
+  });
+});
+faders.forEach(fader => appearOnScroll.observe(fader));
+</script>
 
-                                                                                                                                                                                                                                                                                                                                                                                                      const faders = document.querySelectorAll('.fade-in');
-                                                                                                                                                                                                                                                                                                                                                                                                      const appearOnScroll = new IntersectionObserver(entries => {
-                                                                                                                                                                                                                                                                                                                                                                                                          entries.forEach(entry => {
-                                                                                                                                                                                                                                                                                                                                                                                                                if(entry.isIntersecting){
-                                                                                                                                                                                                                                                                                                                                                                                                                          entry.target.classList.add('visible');
-                                                                                                                                                                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                                                                                                                                                          });
-                                                                                                                                                                                                                                                                                                                                                                                                      });
-                                                                                                                                                                                                                                                                                                                                                                                                      faders.forEach(fader => appearOnScroll.observe(fader));
-                                                                                                                                                                                                                                                                                                                                                                                                      </script>
-
-                                                                                                                                                                                                                                                                                                                                                                                                      </body>
-                                                                                                                                                                                                                                                                                                                                                                                                      </html>
-                                                                                                                                                                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                                                                                                                                                          })
-                                                                                                                                                                                                                                                                                                                                                                                                      })
-                                                                                                                                                                                                                                                                                                                                                                                                                            }
-                                                                                                                                                                                                                                                                                                                                                                                                                            }
-                                                                                                                                                                                                                                                                                                                                                                                                          }
-                                                                                                                                                                                                                                                                                                                                                                                                      })
-}
-                      }
-            }
-      }
-}
+</body>
+</html>
